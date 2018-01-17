@@ -152,7 +152,7 @@ ul > li{
 .myParagraph{
     color:#545556;
    text-align: center;
-   margin-top: 500px;
+   margin-top:480px;
    font-family: 'Open Sans Condensed', sans-serif;
 }
    
@@ -175,7 +175,7 @@ a:hover{
 
 }
 .bottom{
-    margin-top: 50px;
+    margin-top: 0px;
 }
 
 .bottom > li{
@@ -196,7 +196,7 @@ a:hover{
 	position: relative;
 	overflow: hidden;
 	width:600px;
-	height: 480px;
+	height: 520px;
     display:block;
     margin: auto;
     margin-top: 0;
@@ -228,7 +228,6 @@ a:hover{
     overflow: hidden;
     
 }
-
 
 
 .slideshow>.btn{
