@@ -1,5 +1,6 @@
 
 
+
 <html>
 
     <head>
@@ -8,17 +9,18 @@
 		</title>
 		<link rel="stylesheet" href="css/kwassart.css">
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
-    
+
     
     </head>
     
     <body>
   
-    <ul>
-        <li ><a href='kwassproj.html'>DEVELOPER</a></li>
-        <li><a href='index.html'>HOME</a></li>
-        <li id = "current">CREATOR</a></li>
-    </ul>
+        <ul>
+            <li><a href='kwassart.html'>DEVELOPER</a></li>
+            <li><a href='index.html'>HOME</a></li>
+            <li id = "current">CREATOR</li>
+        </ul>
+
         <div class ="slideshow">
           
                 <div><img class="mySlides" src="img/img_ded2.jpg" >
@@ -69,6 +71,7 @@
             <button class="btn" onclick = "plusIndex(1);" id= "btn2">&#10095;</button>
             
         </div>
+
         
         
         <ul class='bottom'>
@@ -77,13 +80,22 @@
         </ul>
         
         
-        <script>
+        <script type = "text/javascript">
             
-            window.addEventListener ("keypress", checkKeyPress, false);
-            var index = 1;
+            
+            //$(document).ready(function(){
+                window.addEventListener("keyPress", checkKeyPress, false);
+                var index = 1;
+            //});
+            
+
+            
             function checkKeyPress(key){
-                if (key.KeyCode==25){
-                    alert("asdsahjk");
+                if (key.keyCode == 37){
+                    plusIndex(-1);
+                }
+                if (key.keyCode == 39){
+                    plusIndex(1);
                 }
             }
             
@@ -119,3 +131,5 @@
 
 
 </html>
+
+

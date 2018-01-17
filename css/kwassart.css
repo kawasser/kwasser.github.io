@@ -1,4 +1,4 @@
-body{
+/*body{
     background-color: #efdcdc;
     
 }
@@ -17,8 +17,6 @@ h1{
     font-size: 20px;
     font-family: 'Open Sans Condensed', sans-serif;
     text-align: center;
-  
-
 }
 .bottom{
     margin-top: -70px;
@@ -38,8 +36,6 @@ h1{
 }
 
 
-
-
 ul{
     text-align: center;
     color: black;
@@ -52,22 +48,8 @@ ul > li{
      margin: 30px;
 }
 
-.slideshow > div{
-   
-}
 
-.appName{
-    font-size: 25px;
-    margin-left: 210px;
-    
-}
 
-.myParagraph{
-    color:#545556;
-   text-align: center;
-
-    margin-top: 500px;
-   font-family: 'Open Sans Condensed', sans-serif;
     
 }
 
@@ -111,6 +93,142 @@ a:hover{
    
     
 }
+
+
+.slideshow>.btn{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 25px;
+    top: 200px;
+    background: rgba(196, 197, 198, 0.8);
+    color: white;
+    font-size: 20px;
+    
+}
+
+.slideshow>#btn2{
+    position: relative;
+    float: right;
+}
+*/
+
+body{
+    background-color: #efdcdc;
+    
+}
+h1{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#current{
+    color: #545556;
+}
+
+ul{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+ul > li{
+     display: inline;
+     margin: 30px;
+}
+
+
+.appName{
+    font-size: 25px;
+    /*margin-left: 210px;*/
+    text-align: left;
+    
+}
+
+.myParagraph{
+    color:#545556;
+   text-align: center;
+   margin-top: 500px;
+   font-family: 'Open Sans Condensed', sans-serif;
+}
+   
+a {
+    color: black;
+    text-decoration: none;
+    
+    
+}
+
+a:hover{
+    opacity: .5; 
+}
+
+#res{
+    font-size: 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+  
+
+}
+.bottom{
+    margin-top: 50px;
+}
+
+.bottom > li{
+    margin: 10px;
+}
+
+#email{
+   font-size: 20px;
+}
+
+#res:hover{
+    opacity: .5; 
+}
+
+
+.slideshow {
+
+	position: relative;
+	overflow: hidden;
+	width:600px;
+	height: 480px;
+    display:block;
+    margin: auto;
+    margin-top: 0;
+
+}
+
+.slideshow > div > div{
+
+	margin-left: 345px;
+    width: 220px;
+    
+
+}
+
+.slideshow > div {
+    position: absolute;
+    max-width: 100%;
+    width: 100%;
+    height: 480px;
+    max-height: 100%;
+
+}
+
+.slideshow > div > img {
+        display:block;
+    margin:auto;
+    height: 100%;
+
+    overflow: hidden;
+    
+}
+
 
 
 .slideshow>.btn{

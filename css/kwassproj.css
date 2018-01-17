@@ -25,9 +25,6 @@ ul > li{
      margin: 30px;
 }
 
-.slideshow > div{
-   
-}
 
 .appName{
     font-size: 25px;
@@ -109,7 +106,7 @@ a:hover{
 }
 
 .slideshow > div > img {
-        display:block;
+   display:block;
     margin-left:50px;
     height: 100%;
     max-width: 275px;
