@@ -1,0 +1,70 @@
+body{
+    background-color: #efdcdc;
+}
+
+h1{
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #545556;
+   font-size: 60px;
+   -webkit-animation:fadeIn 6s;
+    margin-top: 200px;
+    text-align: center;
+
+}
+
+.im > img{
+    opacity: 0;
+    margin: auto;
+    display: block;
+    margin-top: -50px;
+    order: 0;
+    width:350;
+    -webkit-animation:fadeIn 6s forwards;
+    -webkit-animation-delay:1s;
+}
+
+ul {
+
+   list-style-type: none;
+   overflow:hidden;
+    padding:5px;
+    /*width:800px;*/
+    list-style-type: none;
+   
+}
+
+.clickable li{
+   display: inline;
+   
+}
+.table {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+
+li > a{
+      opacity: 0;
+      -webkit-animation:fadeIn 6s forwards;
+      -webkit-animation-delay:1s;
+      padding: 120px;
+         /*padding:2px 100px;*/
+      font-size: 30px;
+      font-family: 'Open Sans Condensed', sans-serif;
+      color: #545556;
+      text-decoration: none;
+}
+
+.clickable li:hover{
+    opacity: .5;
+}
+
+
+@-webkit-keyframes fadeIn{
+    from{
+        opacity: 0;
+        
+    }
+    to{
+        opacity: 1;
+    }
+}

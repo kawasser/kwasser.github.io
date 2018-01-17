@@ -1,0 +1,121 @@
+
+
+<html>
+
+    <head>
+    	<title>
+		Katie Wasserman
+		</title>
+		<link rel="stylesheet" href="css/kwassart.css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+    
+    
+    </head>
+    
+    <body>
+  
+    <ul>
+        <li ><a href='kwassproj.html'>DEVELOPER</a></li>
+        <li><a href='title.html'>HOME</a></li>
+        <li id = "current">CREATOR</a></li>
+    </ul>
+        <div class ="slideshow">
+          
+                <div><img class="mySlides" src="img/img_ded2.jpg" >
+              </div>
+              <div><img class="mySlides" src="img/img_plants.jpg" >
+              </div>
+              <div><img class="mySlides" src="img/img_meg.jpg" >
+              </div>
+             <div><img class="mySlides" src="img/img_ded.jpg" >
+              </div>
+
+              <div><img class="mySlides" src="img/img_elle.jpg" >
+               </div>
+              <div><img class="mySlides" src="img/img_al.jpg" >
+              </div>
+              <div><img class="mySlides" src="img/img_fox.jpg" >
+              </div>
+                        
+    
+            <div class = "myP">
+                <p class = "myParagraph">Wall hanging with branches from my yard, dead flowers from Trader Joes, and copper wire.</p></div>
+            <div class = "myP">
+                <p class = "myParagraph"> Embroidery hoop hand stitched on potted plants for my sister.
+                </p>
+            </div>
+            <div class = "myP">
+                <p class = "myParagraph">Embroidery hoop hand stiched of a drawing my sister created.
+                </p>
+            </div>
+            <div class = "myP">
+                <p class = "myParagraph"> Wall hanging with branch from Cedar Breaks National Monument and dead flowers from Trader Joes.
+                </p>
+            </div>
+            <div class = "myP">
+                <p class = "myParagraph"> Embroidery hoop hand stiched of flowers and a quote from a great Keli song.
+                </p>
+            </div>
+                <div class = "myP">
+                <p class = "myParagraph"> Embroidery hoop hand stiched of a woman's body.
+                </p>
+            </div>
+                <div class = "myP">
+                <p class = "myParagraph"> Baby's onzie hand embroidered for my nephew.
+                </p>
+            </div>
+                
+            <button class="btn" onclick = "plusIndex(-1);" id= "btn1">&#10094;</button>
+            <button class="btn" onclick = "plusIndex(1);" id= "btn2">&#10095;</button>
+            
+        </div>
+        
+        
+        <ul class='bottom'>
+        <li id = 'res'><a  href="katieWassermanResume.pdf" download>DOWNLOAD RESUME</a></li>
+        <li id = 'email'>kawasser@usc.edu</li>
+        </ul>
+        
+        
+        <script>
+            
+            window.addEventListener ("keypress", checkKeyPress, false);
+            var index = 1;
+            function checkKeyPress(key){
+                if (key.KeyCode==25){
+                    alert("asdsahjk");
+                }
+            }
+            
+            function plusIndex(n){
+                index = index +n;
+                showImage(index);
+            }
+            
+            showImage (1);
+            
+            function showImage(n){
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                var y = document.getElementsByClassName("myP");
+                if (n > x.length){
+                    index = 1;
+                }
+                if (n < 1){
+                    index = x.length;
+                }
+                for (i = 0; i<x.length; i++){
+                    x[i].style.display = "none";
+                    y[i].style.display = "none";
+                }
+                x[index-1].style.display = "block";
+                y[index-1].style.display = "block";
+            }
+            
+
+        </script>
+    
+    </body>
+
+
+</html>
