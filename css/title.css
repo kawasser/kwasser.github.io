@@ -4,7 +4,7 @@ body{
 
 h1{
     font-family: 'Open Sans Condensed', sans-serif;
-    color: black;
+    color: #545556;
    font-size: 60px;
    -webkit-animation:fadeIn 6s;
     margin-top: 200px;
@@ -12,21 +12,15 @@ h1{
 
 }
 
-/*.names{
-   margin-top: -650px;
-}
-*/
-
 .im > img{
     opacity: 0;
     margin: auto;
     display: block;
     margin-top: -50px;
     order: 0;
-    width:300px;
+    width:350;
     -webkit-animation:fadeIn 6s forwards;
     -webkit-animation-delay:1s;
-    
 }
 
 ul {
@@ -56,7 +50,7 @@ li > a{
          /*padding:2px 100px;*/
       font-size: 30px;
       font-family: 'Open Sans Condensed', sans-serif;
-      color: black;
+      color: #545556;
       text-decoration: none;
 }
 
